@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(66, 66, 197);
+    color: white;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.visible-form {
+    max-width: 30%;
+    display: grid;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+.align-center-text {
+    display: flex;
+    align-items: center;
+    vertical-align: bottom;
+    justify-content: center;
+    max-height: 40%;
+}
+
+.invisible-form {
+    display: none;
+}
+
+/* .form-style-in{
+        display: block;
+    } */
